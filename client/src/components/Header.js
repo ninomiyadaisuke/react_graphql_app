@@ -1,5 +1,6 @@
 import React from 'react'
-import { Navbar, NavbarBrand} from "reactstrap"
+import { Navbar, NavbarBrand } from "reactstrap"
+
 
 const Header = () => {
     return (
@@ -10,3 +11,4 @@ const Header = () => {
 }
 
 export default Header
+

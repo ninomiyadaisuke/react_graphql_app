@@ -10,10 +10,12 @@ const client = new ApolloClient({
   uri: "http://localhost:4000/graphql",
 })
 
+
 function App() {
   return (
     <div className="App">
       <Header />
+ create-MovieList
       <ApolloProvider client={client} >
         <Container>
           <Row>
@@ -26,7 +28,6 @@ function App() {
           </Row>
         </Container>
       </ApolloProvider>
-      
     </div>
   );
 }

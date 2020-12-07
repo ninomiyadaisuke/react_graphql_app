@@ -20,8 +20,8 @@ const SideNav = () => {
         e.target.reset()
         // console.log(directorAge);
         const IntAge = parseInt(directorAge)
-        // addDirector({ variables: { name: directorName, age: IntAge } })
-        console.log({ variables: { name: directorName, age: IntAge } });
+        addDirector({ variables: { name: directorName, age: IntAge } })
+        // console.log({ variables: { name: directorName, age: IntAge } });
     }
 
     return (

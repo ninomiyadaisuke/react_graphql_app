@@ -41,5 +41,4 @@ export const DELETE_MOVIE = gql`
         deleteMovie(id: $id) {
             id
         }
-    }
-`
+    }`

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Card, CardHeader, CardBody, Form, FormGroup, Button } from 'reactstrap'
 import { useQuery, useMutation } from "@apollo/react-hooks"
 import { DIECTOR_LIST, ADD_MOVIE, MOVIE_LIST, ADD_DIRECTOR } from "../queries/queries"
@@ -95,6 +96,5 @@ const SideNav = () => {
         </div>
     )
 }
-
 
 export default SideNav
